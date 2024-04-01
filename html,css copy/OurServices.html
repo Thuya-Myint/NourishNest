@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/P_Nutritious.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+    *
+    {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+</style>
+<body id="bodyService">
+    <div id="srvHead">
+        <a href="index.html"><ion-icon name="chevron-back-outline" id="barw"></ion-icon></a>
+       <h2 id="srvOus">Our Services</h2>
+    </div>
+
+    <div id="srvNavi">
+        <a href="#srv1h" class="srves" id="sres1"><abbr title="Personalized Meal plan">Service-1</abbr></a>
+        <a href="#srv2h" class="srves" id="sres2"><abbr title="Meal plan and prep">Service-2</abbr></a>
+        <a href="#srv3h" class="srves" id="sres3"><abbr title="Product recomendations">Service-3</abbr></a>
+    </div>
+
+    <div id="srv1h">
+
+        <h1 class="srvh">1.Personalized Meal Plan!</h1>
+
+        <div id="srv1bx">
+            <img src="photo/service2.jpeg" alt="" class="svimg">
+            <span class="txbx">
+                Personalized nutrition is a tailored approach to dietary planning and recommendations 
+                that considers an individual's unique genetic makeup, metabolism, lifestyle, and health goals. 
+                Unlike general dietary guidelines designed for the average person, personalized nutrition aims 
+                to optimize health outcomes and possibly prevent or manage diseases by analyzing specific biomarkers, 
+                genetic predispositions, microbiome composition, and other personal health data. This customization can 
+                lead to more effective nutrition strategies for improving health, managing weight, and enhancing overall well-being.
+                
+            </span>
+                
+        </div>
+
+        <p id="cmcst1" data-aos="fade-right" data-aos-duration="1200">
+            Because you’re unique,your meals should be too.<br>Experience the difference with our personalized<br>meal plans.
+        </p>
+
+        <button class="srvmenu"><a href="#srvHead" class="nodeco">Services Menu</a></button>
+
+    </div>
+
+    <div id="srv2h">
+
+        <h1 class="srvh">2.Meal Plan and Prep</h1>
+
+        <div id="srv2bx">
+            <img src="photo/service3.jpeg" alt="" class="svimg">
+            <span class="txbx">
+                Selecting recipes, 
+                deciding on meals for breakfast, lunch, dinner, and possibly snacks. 
+                The purpose of meal planning is to organize what you eat to meet dietary goals, save time
+                , reduce waste, and streamline grocery shopping.Meal prep is the process of preparing meals.
+                 This can involve cooking complete meals or preparing ingredients for quick assembly later.
+                  Meal prep is often done after planning meals 
+                  for the week, and it can range from pre-cooking all your meals and portioning them out for 
+                  the week to simply chopping vegetables or cooking proteins in advance to speed up mealtime preparations.
+            </span>
+                
+        </div>
+
+        <p id="cmcst2" data-aos="fade-right" data-aos-duration="1200">
+            “Your tastes, your goals, <br>our mission – to craft the perfect meal, just for you.”
+        </p>
+
+        <button class="srvmenu"><a href="#srvHead" class="nodeco">Services Menu</a></button>
+
+    </div>
+
+    <div id="srv3h">
+
+        <h1 class="srvh">3.Product Recommendations</h1>
+
+        <div id="srv3bx">
+            <img src="photo/service4.jpeg" alt="" class="svimg">
+            <span class="txbx">
+                Using supplements can offer a range of benefits, especially
+                 when they’re used to complement a balanced diet and healthy lifestyle.
+                 Here are some key benefits:
+                 <ul  id="prmdmain">
+                    <li class="prmd">Enhancing Nutrient Absorption with Age</li>
+                    <li class="prmd">Boosting Immune System</li>
+                    <li class="prmd">Improving Physical Performance and Recovery</li>
+                 </ul>
+            </span>
+                
+        </div>
+
+        <p id="cmcst3" data-aos="fade-right" data-aos-duration="1200">
+            “Unlock the power of personalized nutrition<br> and watch your well-being flourish.”
+        </p>
+
+        <button class="srvmenu"><a href="#srvHead" class="nodeco">Services Menu</a></button>
+
+    </div>
+
+    <div id="pursrv">
+        <form action="" method="post">
+
+            <div id="forname">
+                <label for="namesrv">Name</label>
+                <input type="text" id="namesrv">
+            </div>
+
+            <div id="foremail">
+                <label for="emailsrv">Email</label>
+                <input type="text" id="emailsrv" placeholder="@gmail.com">
+            </div>
+
+            <div id="purchase">
+                <label for="pur">Purchase Plan</label>
+                <select id="puropt">
+                    <option name="pur" value="service1" class="s1">Service-1(Personalized Meal)</option>
+                    <option name="pur" value="service2" class="s2">Service-2(Meal Plan and Prep)</option>
+                    <option name="pur" value="service3" class="s3">Service-3(Product Recommendations)</option>
+                </select>
+            </div>
+                <fieldset id="plan">
+                    <legend>Subscription Plan!</legend>
+
+                    <input type="radio" id="plan1" name="subpl" value="plan1">
+                    <label for="subpl">10$ Per 1 month!</label><br><br>
+
+                    <input type="radio" id="plan2" name="subpl" value="plan2">
+                    <label for="subpl">50$ Per 6 months!</label><br><br>
+
+                    <input type="radio" id="plan3" name="subpl" value="plan3">
+                    <label for="subpl">70$ Per 1 Year!</label><br><br>
+
+                </fieldset>
+            
+
+            <div id="transition">
+                <label for="pcdt">Transition Details</label><br>
+                <input type="file" name="detail" id="pcdt">
+            </div>
+
+            <input type="submit" value="Purchase" id="purcse">
+        </form>
+
+        
+    </div>
+    <div id="decorod"></div>
+    <div id="msft1">
+        <img src="photo/mealSet1.png" alt="" id="msdpt">
+        <p id="cmcst4" data-aos="fade-right" data-aos-duration="1200">
+            It's been a pleasure connecting with you! <br>If you ever have more questions or need guidance,<br>
+            don't hesitate to return.<br>
+        </p>
+    </div>
+
+    <div id="farewell" data-aos="zoom-in" data-aos-duration="700"> Wishing you health and happiness on your journey ahead. Take care!</div>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

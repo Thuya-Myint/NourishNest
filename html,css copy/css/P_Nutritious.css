@@ -1,0 +1,1466 @@
+#bodyHome
+{
+    height: 250vh;
+}
+@font-face {
+    font-family: font1;
+    src: url("../font/antipasto/AntipastoPro-Bold_trial.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("../font/nasalization-free/nasalization-rg.otf");
+}
+#dietpl,.dditem,#home,#clirs,#it,#faq,#typc,#typc1,#abus,#impli,#home1,#abus1,#home2,#abus2
+{
+    text-decoration: none;
+}
+#pname,#home,#clirs,#dietpl,#phase1,#phase2,#phase3,#infoTrack,#titleUpdateInfo,#prePhoto,#curPhoto,#faq,#typc,#typc1,#abus,#abus1,#abus2,#home1,#home2,#lgbox,#title1,#title2,#gst1,#osv,#dtsa,.diet,#tct,#gtnb,#cr,#d17tt,#parent,#regh1,#regh2,#heaparent,#regh3,#mdf,#regh4,#dietpr,#regh5,#physpr,#regh6,#register,#login,#brag,#srvOus,#farewell,#regtosp,#abusText,#otmbr,#name1,#name2,#name3,#name4,#name5,#name6,#educre1,#license1,#proex1,#publi1,#affiliate,#testimonial,#contact,#mdpText,#mpdpNaviText,#ketochild,#veganchild,#interchild,#paleochild,#emfp,#tlfp,#lctfp,#ycdietpl
+{
+    font-family: "font1",'Courier New', Courier, monospace;
+}
+#home,#clirs,#dietpl,#faq,#typc,#typc1,#abus,#home1,#abus1,#home2,#abus2
+{
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 1%;
+}
+li
+{
+    list-style: none;
+}
+.dditem
+{
+    display: none;
+    
+}
+#dietdd:hover .dditem
+{
+    display: block;
+}
+#mainNav
+{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(25, 159, 25);
+    display: flex;
+}
+#dietdd
+{
+    margin-top: 17%;
+    margin-left: 80%;
+    width: 100%;
+    z-index: 50;
+}
+.dditem
+{
+    background-color:rgba(241, 237, 237, 0.906);
+    margin-top: 5%;
+    padding: 8%;
+   
+}
+#it
+{
+    color: black;
+}
+#it:hover
+{
+    text-decoration: underline;
+}
+#home,#home1,#home2
+{
+    margin-left: 10%;   
+}
+#home
+{
+    text-decoration: underline;
+}
+#clirs
+{
+    margin-left: 16%;
+}
+#faq,#typc,#typc1
+{
+    margin-left: 6%;
+}
+#abus,#abus1,#abus2
+{
+    margin-left: 16%;
+}
+#logo
+{
+    width: 20%;
+    height: 40vh;
+    position: absolute;
+    top: 15%;
+}
+#pname
+{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#wt
+{
+    font-size: 200%;
+}
+#pna
+{
+    font-size: 300%;
+    color: green;
+}
+#npl
+{
+    font-size: 200%;
+}
+#nms1
+{
+    width: 65%;
+    height: 60vh;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+   
+}
+#lgbox
+{
+    font-size: 130%;
+    margin-top: 4%;
+}
+#lgdeco
+{
+    font-size: 150%;
+    color: green;
+}
+#impbtn
+{
+    font-size: 150%;
+    position: absolute;
+    left: 2%;
+    top: 60%;
+    padding: 1%;
+    background-color:rgb(25, 159, 25);
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 1rem;
+}
+#nms2
+{
+    width: 50%;
+    height: 80vh;
+    margin-top:5%;    
+}
+#ctn1
+{
+    display: inline-block;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 18% 51%);
+    background-color: rgb(25, 159, 25);
+    width: 40%;
+    height: 35vh;
+    border-radius: 3rem;
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    border-bottom: 4px solid black;
+}
+#title1,#title2,#gst1
+{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#gs1
+{
+    color:rgb(25, 159, 25);
+    font-size: 140%;
+    text-decoration: none;  
+    
+}
+#gs1:hover
+{
+    text-decoration: underline;
+}
+#gst1
+{
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: whitesmoke;
+    transition: all 0.4s;
+}
+#gst1:hover
+{
+    transform: scale(1.2);
+}
+#title1
+{
+    color: yellow;
+    font-size: 130%;
+}
+#title1,#npl
+{
+    text-decoration: underline;
+}
+#impli
+{
+    color: white;
+}
+#dietdd:hover,#clirs:hover,#faq:hover,#typc:hover,#abus:hover,#home1:hover,#home2:hover,#abus2:hover
+{
+    text-decoration: underline;
+}
+#carouselExampleCaptions
+{
+    
+    margin-left: 10%;
+    
+}
+#ci1,#ci2,#ci3
+{
+    width: 80%;
+    height: 50vh;
+}
+#carouselExampleDark
+{
+    width: 70%;
+    margin-left: 15%;
+}
+#osv
+{
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline;
+}
+#tbx1,#tbx2,#tbx3
+{
+    border-radius: 2rem;
+    -webkit-backdrop-filter: blur(20px);
+}
+#crsz
+{
+    height: 65vh;
+}
+#dts
+{
+    position: absolute;
+    font-size: 200%;
+    padding: 0.3%; 
+    z-index: 100;
+    left: 45%;
+    margin-top: 2%;
+    
+}
+#dtsa
+{
+    color: green;
+    text-decoration: none;
+    z-index: 100;
+
+}
+#dts:hover
+{
+    text-decoration: underline;
+}
+#fmcon
+{
+    background-image: url("../photo/diettype1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.diet 
+{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    text-align: center;
+    border-radius: 2rem;
+    border: 2px solid white;
+    box-shadow: 2px 4px 15px black;
+    transition: all 0.5s;
+}
+#diet1,#diet2,#diet3
+{
+    top: 263%;
+}
+#diet1,#diet3,#diet5,#diet6,#diet7,#diet8
+{
+    width: 30%;
+    height: 20vh;   
+    color: white;
+    font-size: 250%;
+}
+
+.tx1,#phno,#em,#fmt,.srves,.iftkSp,#emclients,#telclients,#locaclients
+{
+    font-family: 'font2','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tx1
+{
+    color: rgb(40, 223, 40);
+    font-size: 170%;
+}
+#diet2,#diet4,#diet9
+{
+    width: 15%;
+    height: 20vh;
+    font-size: 230%;
+    color: white;
+    
+}
+#diet2,#diet4,#diet8
+{
+    left: 42.5%;
+}
+#diet3,#diet6
+{
+    left: 62%;
+    color: rgb(4, 6, 4);
+}
+#diet1,#diet4,#diet7
+{
+    left: 8%;  
+}
+#diet4,#diet5,#diet6
+{
+    top: 288%;   
+}
+#diet5
+{
+    left: 28%;
+}
+#diet7,#diet8,#diet9
+{
+    top: 312.8%;
+    z-index: 10;
+}
+#diet9
+{
+    left: 77%;
+}
+.diet:hover
+{
+    transform: scale(1.2);
+    -webkit-backdrop-filter: blur(70px);
+}
+
+#foothome
+{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 300%;
+}
+#footlogo
+{
+    width: 100%;
+    height: 70%;
+    margin-top: 15%;
+}
+#tct,#gtnb,#cr
+{
+    font-size: 200%;
+}
+#tct,#phno,#em,#gtnb,#cr
+{
+    position: relative;
+    color: black;
+    width: fit-content;
+}
+#tct,#phno,#em
+{
+    left: 3%;
+}
+#tct
+{
+    top: 120%;
+}
+#phno,#em
+{
+    font-size: 200%;
+    top: 120%;
+}
+#phno,#em,#gtnb
+{
+    color: white;
+}
+#cr
+{
+    top: 112%;
+    left: 42%;
+   
+}
+#gtnb
+{
+    position: absolute;
+    top: 138%;
+    left: 75%;
+}
+#d17tt
+{
+    color: black;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: underline;
+}
+/* Register */
+#regbd
+{
+    background-image: url("../regbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#regMainParent
+{
+    width: 98%;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    margin-left: 1%;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+#firstPage
+{
+    width: 100%;
+    height: 100vh;
+     background-image: url("../P_nutri1.png");
+     background-size: cover;
+   
+}
+#regh1,#regh2,#regh3,#regh4,#regh5,#regh6
+{  
+    color: white;
+    text-align: center;
+    height: 5vh;
+    /* padding-top: 1%; */
+    /* box-shadow: 2px 4px 15px black; */
+    color: rgb(25, 159, 25);
+    
+   
+}
+#regh2,#regh3,#regh4,#regh5,#regh6
+{
+    border-left: 3px solid black;
+    padding: 1%;
+    color: yellow;
+    background-color: rgb(7, 129, 7);
+}
+#regh1
+{
+    margin-top: 0%;
+    font-size: 250%;
+    width: 100%;
+    /* margin-left: 15%; */
+    text-decoration: underline;
+    background-color: yellow;
+    padding: 2% 0%;   
+}   
+#regh1,#regh2,#regh3,#regh4,#regh5,#regh6
+{
+    border-bottom: 3px solid white;
+}
+
+#regh2,#regh3,#regh4,#regh5,#regh6
+{
+    font-size: 200%;
+    width: 50%;
+    margin-left: 3%;
+    height: 6vh;
+    margin-top: 0.5%;       
+}
+#regh5
+{
+    height: 3.5vh;
+}
+#psinfo,#hlinfo,#diinfo,#nutrigoal
+{
+    width: 25%;
+}
+#psinfo
+{
+    margin-top: 2%;
+}
+#parent,#heaparent,#dietpr,#physpr
+{
+    width: 100%;
+    height: 60vh;
+    /* border: 2px solid white; */
+    font-size: 150%;   
+    /* border-radius: 1.5rem; */
+    /* -webkit-backdrop-filter: blur(35px);   */
+    
+}
+label,#genpr,#phnum
+{
+    margin-left: 8%;
+}
+input[type="text"],input[type="date"],input[type="phlb"],input[type="tel"],input[type="email"],input[type="number"]
+{
+    width: 50%;
+    height: 3vh;
+}
+#namepr,#genpr,#agepr,#dobpr,#fctpr,#empr,#addpr
+{
+    margin-top: 5%;
+}
+#genpr
+{
+    width: 60%;
+    height: 13vh;
+}
+#hlinfo,#diinfo,#physinfo,#nutrigoal
+{
+    position:absolute;
+    left: 30%;
+    top: 3%;   
+}
+#hlinfo,#diinfo,#physinfo
+{
+    border-left: 6px solid rgb(25, 159, 25);
+}
+#hlinfo
+{
+    height: 73vh;
+}
+#heipr,#weipr,#bmipr,#mdcpr,#algpr
+{
+    margin-top: 5%;
+}
+#mdf
+{
+    width: 70%;
+    font-size: 70%;
+    margin-top: 2%;
+}
+#altxt,#mdf
+{
+    margin-left: 8%;
+}
+#altxt
+{
+    margin-top: 4%;
+    font-size: 50%;
+    width: 80%;
+}
+#heaparent
+{
+    height: 50vh;
+}
+#name
+{
+    margin-left: 18%;
+}
+#age
+{
+    margin-left: 22.5%;
+}
+#email
+{
+    margin-left: 10%;
+}
+#address
+{
+    margin-left: 11.5%;
+}
+#height
+{
+    margin-left: 10%;
+}
+#weight
+{
+    margin-left: 9%;
+}
+#bmid
+{
+    margin-left: 14.8%;
+}
+#diinfo,#physinfo
+{
+    left: 58%;
+    width: 40%;
+}
+input
+{
+    font-size: 70%;
+}
+#regh4
+{
+    font-size: 200%;
+}
+#ml,#fr,#fvf,#ltf,#flit
+{
+    margin-top: 3%;
+}
+#dietit
+{
+    margin-left: 13.2%;
+}
+#fdres
+{
+    margin-left: 5.3%;
+}
+#fvfd
+{
+    margin-left: 11%;
+}
+
+#flitk
+{
+    margin-left: 13.5%;
+}
+#dietpr,#physpr
+{
+    height: 30vh;
+}
+#physpr
+{
+    height: 25vh;
+}
+#physinfo
+{
+    top: 50%;
+}
+#exepr,#slppr,#smacpr
+{
+    margin-top: 3%;
+}
+#slpbx
+{
+    width: 60%;
+    margin-left: 5.6%;
+}
+#smoke,#alcohol
+{
+    margin-left: 8%;
+}
+#alcohol
+{
+    margin-top: 3%;   
+}
+#alco
+{
+    margin-left: 4.6%;
+}
+#smoke
+{
+    margin-top: 3%;
+}
+#nutrigoal
+{
+    top: 65%;
+    left: 36%;  
+}
+
+#ntrglpr
+{
+    width: 100%;
+    
+}
+#goal
+{
+    width: 60%;
+    font-size: 1.3rem;
+    margin-top: 2.3%;
+}
+#smlg
+{
+    margin-top: 8%;
+    margin-left: 32%;
+}
+#register,#login
+{
+    width: 15%;
+    height: 5vh;
+    font-size: 1.5rem;
+    box-shadow: 2px 4px 15px black;
+    transition: all 0.5s;
+}
+#register
+{
+    background-color: yellow;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+#login
+{
+    background-color: green;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+#register:hover,#login:hover
+{
+    transform: scale(1.2);
+}
+#brag
+{
+    font-size: 2rem;
+    color: rgb(25, 159, 25);   
+}
+#brag:hover
+{
+    color: rebeccapurple;
+}
+
+/* service */
+#barw,#abusIcon
+{
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 1%;
+}
+#bodyService
+{
+    height: 300vh;
+}
+#srvOus,#abusText,#mdpText
+{
+    display: inline-block;
+    position: absolute;
+}
+#mdpText,#abusText,#srvOus
+{
+    top: 2%;
+}
+#mdpText
+{
+    left: 40%;
+}
+#abusText
+{
+    left: 48%;
+}
+#srvOus
+{
+    left: 46%;
+}
+#srvHead,#abusnavi,#mdpnavi
+{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(40, 223, 40);
+    
+}
+.srves
+{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(25, 159, 25);
+    padding: 1%;
+    border-radius: 0.6rem;
+    border-bottom: 2px solid black;
+    transition: all 0.4s;
+
+}
+#srvNavi
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+.nodeco
+{
+    text-decoration: none;
+    color: black;
+}
+.srves:hover
+{
+    box-shadow: 2px 4px 15px black;
+}
+.srvh
+{
+    text-align: center;  
+    text-decoration: underline;
+}
+#srvNavi,.srvh
+{
+    margin-top: 5%;
+}
+#srv1bx,#srv2bx,#srv3bx
+{
+    width: 80%;
+    height: 40vh;
+    margin-left: 7.5%;
+    margin-top: 4%;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.svimg
+{
+    width: 50%;
+    height: 39.5vh;
+    border-right: 10px solid rgb(25, 159, 25);
+    padding-right: 10%;
+}
+.txbx
+{
+    font-size: 120%;
+    text-align: justify;
+    padding-left: 2%;
+}
+#cmcst1,#cmcst2,#cmcst3,#cmcst4
+{
+    position:absolute;
+    left: 50%;
+    font-size: 160%;
+    border-left: 6px solid black;
+    color: rgb(3, 99, 3);
+    padding-left: 1%;
+}
+#cmcst1
+{   
+    top: 71.8%;   
+}
+#cmcst2
+{
+    top: 138.5%;
+}
+li
+{
+    list-style:decimal;
+}
+#prmdmain
+{
+    margin: 5% 0% 0% 5%;
+    color: rgb(3, 99, 3);
+
+}
+#cmcst3
+{
+    top: 201.6%;
+}
+.srvmenu
+{
+    margin-left: 77.5%;
+    width: 10%;
+    height: 4vh;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+#pursrv
+{
+    width: 38%;
+    height: 60vh;
+    border: 2px solid black;
+    margin:5% 0% 0% 5%;
+}
+#forname,#foremail,#purchase,#transition
+{
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+#emailsrv,#namesrv
+{
+    margin-left: 17%;
+}
+#puropt
+{
+    margin-left: 7%;
+    width: 50%;
+    font-size: 1.2rem;
+}
+#plan
+{
+    width: 76%;    
+}
+#plan,#pcdt
+{
+    margin: 3% 0% 0% 8%;
+    font-size: 1.3rem;
+}
+#purcse
+{
+    width: 30%;
+    height: 4vh;
+    margin: 5% 0% 0% 35%;
+    font-size: 1.2rem;
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="tel"]
+{
+    border: none;
+    outline: none;
+}
+#namesrv,#emailsrv
+{
+    border: none;
+    border-bottom: 2px dashed black;
+}
+
+#msdpt
+{
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    top: 195%;
+    left: 45%;
+    z-index: -10;
+}
+#cmcst4
+{
+    top: 271.6%;
+}
+#decorod
+{
+    width: 0.6%;
+    background-color: rgb(25, 159, 25);
+    height: 60vh;
+    position: absolute;
+    top: 225%;
+    left: 46.9%;
+}
+#farewell
+{
+    background-color: green;
+    color: white;
+    padding: 4%;
+    font-size: 3rem;
+    margin: 5% 0% 0% 0%;
+    text-align: center;
+}
+#regtosp
+{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: rgb(25, 159, 25);
+    color: black;
+    padding: 1%;
+    position: absolute;
+    top: 70%;
+    left: 6%; 
+    border-radius: 0.7rem;  
+    transition: all 0.4s;
+}
+#regtosp:hover
+{
+    transform: scale(1.3);
+}
+/* about us */
+#abus1
+{
+    text-decoration: underline;
+}
+#otmbr
+{
+   text-align: center;
+   margin-top: 6%;
+}
+#parentMember
+{
+    margin-top: 8%;
+}
+.pngContainer
+{
+    transform: scale(0.7);
+    width: 0%;
+    margin-top: 1%;
+}
+.dtmem
+{
+    position: absolute;
+    left: 30%;
+    border-left: 6px solid rgb(25, 159, 25);
+    padding-left: 3%;
+    width: 60%;
+    height: 55vh;  
+    overflow: auto;
+}
+#name1,#name2,#name3,#name4,#name5,#name6,#educre1,#license1,#proex1,#publi1,#affiliate,#testimonial,#contact
+{
+    border-left:4px solid black ;
+}
+#mDt1
+{
+    top: 50%;
+}
+#mDt2
+{
+    top: 128%;
+}
+#mDt3
+{
+    top: 210%;
+}
+#mDt4
+{
+    top: 289%;
+}
+#mDt5
+{
+    top: 368%;
+}
+#mDt6
+{
+    top: 449%;
+}
+.pspara,.edudt,.lsic,.prexp,.pubrs,.affilia,.testim,.tct
+{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.contrast
+{
+    color: rgb(25, 159, 25);
+}
+/* most popular diet */
+#half1stmpd
+{
+    width: 30%;
+    border-right: 6px solid black;
+}
+#half1stmpd,#half2ndmpd
+{
+    height: 200vh;
+}
+#mpdpNaviText
+{
+    border-left: 4px solid black;
+    padding-left:5%;
+    margin-left:5%;
+    color: rgb(25, 159, 25);
+    margin-top: 10%;
+    height: 5vh;
+    padding-top: 2%;
+    
+}
+#tp1par,#tp2par,#tp3par,#tp4par,#tp5par,#tp6par,#tp7par,#tp8par,#tp9par
+{
+    margin: 15% 0% 0% 10%;   
+}
+#dietType1,#dietType2,#dietType3,#dietType4,#dietType5,#dietType6,#dietType7,#dietType8,#dietType9
+{
+    padding: 8%;
+    border-right: 2px solid black;
+    margin-top: 5%;
+    width: 40%; 
+    font-size: 120%; 
+}
+#dietType5
+{
+    padding-left: 1%;
+}
+.explainDiet1,.explainDiet2,.explainDiet3,.explainDiet4,.explainDiet5,.explainDiet6,.explainDiet7,.explainDiet8,.explainDiet9
+{
+    position: absolute;
+    top: 25.5%;
+    left: 16%;
+    font-size: 1.2rem;
+}
+.explainDiet2
+{
+    top: 46%;
+}
+.explainDiet3
+{
+    top: 68%;
+}
+.explainDiet4
+{
+    top: 90%;
+}
+.explainDiet5
+{
+    top: 111%;
+}
+.explainDiet6
+{
+    top: 132.5%;
+}
+.explainDiet7
+{
+    top: 155%;
+}
+.explainDiet8
+{
+    top: 175.5%;
+}
+.explainDiet9
+{
+    top: 196.5%;
+}
+.wst,.bag,.rcp
+{
+    color: rgb(3, 99, 3);
+    text-decoration: none;
+}
+.wst:hover,.bag:hover,.rcp:hover
+{
+    text-decoration: underline;
+}
+#half2ndmpd
+{
+    width: 60%;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    overflow: auto;
+}
+#keto,#vegan,#inter,#paleo
+{
+    width: 90%;
+    height: fit-content;
+}
+.pdpdiet
+{
+    width: 60%;
+    height: 60vh;
+}
+#ketochild,#veganchild,#interchild,#paleochild
+{
+    position: absolute;
+    font-size: 300%;
+    border-left: 6px solid rgb(25, 159, 25);
+    padding-left: 5%;
+}
+#ketochild
+{
+    top: 13%;
+}
+#veganchild
+{
+    top: 104%;
+}
+#interchild
+{
+    top: 192%;
+}
+#paleochild
+{
+    top: 284%;
+}
+#wiskthead,#bandghead,#recphead,#risk
+{
+    border-left: 3px solid black;
+    color: rgb(25, 159, 25);
+    padding:2% 0% 2% 5% ;
+}
+#whatis,#goalandbeneKeto,#recipeKeto,#riskare,#goalandbeneVegan,#recipeVegan,#goalandbeneInter,#recipeInter,#goalandbenePaleo,#recipePaleo
+{
+    margin-left: 15%;
+}
+.dietTyPara,.recp,.list
+{
+    text-align: justify;
+    font-size: 120%;
+}
+
+.recp
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100%;
+    
+}
+.ketorec,.veganrec,.Interrec,.paleorec
+{
+    margin:3%;
+}
+#greeneg,#inter6
+{
+    margin-left: 7%;
+}
+#rmen
+{
+    margin-left: 5%;
+}
+#refer
+{
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+.rfwsfh
+{
+    color: black;
+}
+#inter5
+{
+    margin-left: 4%;
+}
+#mushtco
+{
+    margin-left: 9%;
+}
+/* track Nutrition */
+#bodyTrack
+{
+    height: 200vh;
+}
+#typc1
+{
+    text-decoration: underline;
+}
+#home2,#abus2
+{
+    text-decoration: none;
+}
+#headBody1
+{
+    width: 45%;
+    height: 22vh; 
+    margin-left: 1.5%;
+    margin-top: 2%;
+    background-color: rgb(25, 159, 25);
+   
+}
+#headBody1,#contactInfoClients
+{
+   
+    border-radius: 2rem;
+}
+#prophoto,#achievement,#contactInfoClients
+{
+    position: absolute;
+}
+#prophoto
+{
+    width: 20%;
+    top: 7%;
+    left: 0%;
+}
+#infoTrack
+{
+    padding-top: 2%;
+    margin-left: 45%;
+    font-size: 130%;
+    /* width: 25%; */
+    height: 22vh;
+
+}
+.iftkFp
+{
+    color: #ffde59;
+}
+.iftkSp
+{
+    color: white;
+}
+#nchn
+{
+    margin-left: 0.3%;
+}
+#alchage
+{
+    margin-left: 0.4%;
+}
+#wlcwg
+{
+    margin-left: 1%;
+}
+#hlchg
+{
+    margin-left: 4%;
+}
+#blcbmi
+{
+    margin-left: 3.6%;
+}
+.dash1
+{
+    margin-left: 4%;
+}
+.dash2
+{
+    margin-left: 9.5%;
+}
+.dash3
+{
+    margin-left: 1%;
+}
+.dash4
+{
+    margin-left: 2.3%;
+}
+.dash5
+{
+    margin-left: 4%;
+}
+#contactInfoClients
+{
+    width: 40%;
+    height: 18vh;
+    background-color: white;
+    border: 4px solid rgb(25, 159, 25);
+    top: 13.5%;
+    left: 53%;
+    font-size: 180%;
+}
+#emclients,#telclients,#locaclients
+{
+   text-align: center;
+}
+#emfp,#tlfp,#lctfp
+{
+    color: rgb(25, 159, 25);
+}
+.trackPhoto
+{
+    width: 45%;
+    height: 60vh;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+    
+#titleUpdateInfo
+{
+    text-align: center;
+    font-size:2.4rem;
+    margin-top: 5%;
+}
+#prePhoto,#curPhoto
+{
+    margin-left: 25%;
+    font-size: 1.3rem;
+    margin-top: 5%;
+    color: rgb(25, 159, 25);
+}
+#preUpBox,#curUpBox
+{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+#subButton
+{
+    margin-top: 7%;
+    margin-left: 38%;
+    padding: 1% 6%;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+#subButton:hover
+{
+    opacity: 1;
+}
+#ycdietpl
+{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5%;
+    color: gold;
+}
+#ycdp
+{  
+    color: rgb(25, 159, 25);
+}
+#dash6,#ycdp
+{
+    font-size: 3rem;
+    
+}
+#dash6
+{
+    color: black;
+}
+#motiDeco
+{
+    height: 45vh;
+    width: 40%;
+    clip-path: polygon(0% 0%, 75% 0%, 85% 50%, 75% 100%, 0% 100%);
+    background-color: rgb(25, 159, 25);
+    position: absolute;
+    top: 130%;
+    left: 7%;
+}
+#phase1,#phase2,#phase3
+{
+    font-size: 180%;
+    margin-top: 4%;
+    
+}
+#phase1
+{
+    color: white;
+    margin-left: 12%;
+}
+#phase2
+{
+   color: #e70929;
+   margin-left: 8%;
+}
+#phase3
+{
+    color: #ffde59;
+    margin-left: 6%;
+}
+#phase4
+{
+    color: white;
+    font-size: 1.2rem;
+    text-align:left;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+#preywtext,#curywtext
+{
+    margin-top: 5%;
+    margin-left: 28%;
+}
+#prewigt,#curwigt
+{
+    border-bottom: 2px dashed black;
+    width: 20%;
+    margin-left: 2%;
+}
+#upifParent
+{
+    width: 40%;
+    margin-left: 52%;
+}
+
+#shareProgress
+{
+    padding-left: 4%;
+    font-size: 2rem;   
+    margin-left: 7%;
+    padding-top: 0%;
+}
+#trackFoot
+{
+    height: 60vh;
+}
+#shareIcon
+{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.iconshare
+{
+    font-size: 3rem;
+    padding: 2%;
+    color: black;
+}
+.iconshare:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

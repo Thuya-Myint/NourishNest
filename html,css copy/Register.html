@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nutritionRegister!</title>
+    <link rel="stylesheet" type="text/css" href="css/P_Nutritious.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body id="regbd">
+    
+    <h1 id="regh1">Register to make your <span style="color: rgb(66, 191, 66);"> Nutritions Plan</span> More <span style="color: rgb(66, 191, 66);">Effective</span></h1>
+
+    <div id="regMainParent">
+    <form action="index.html" method="post">
+
+        <div id="psinfo">
+            <h2 id="regh2" data-aos="fade-right" data-aos-duration="1200">Personal Information!</h2>
+
+                <div id="parent">
+
+                <div id="namepr">
+                    <label for="name" id="nalb">Name</label>
+                    <input type="text" name="name" placeholder="Enter Your Name" required autofocus maxlength="35" min="10" id="name"><br>
+                </div>
+
+                <div id="agepr">
+                    <label for="age" id="aglb">Age</label>
+                    <input type="number" name="age" placeholder="Enter Your age" required autofocus maxlength="2" min="1" id="age" >
+                </div>
+
+                
+                <div id="dobpr">
+                    <label for="dob" id="doblb">Date Of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                
+                <div id="fctpr">
+                    <label for="phno" id="phlb"><ion-icon name="call-outline"></ion-icon>PhoneNumber</label>
+                    <input type="tel" name="phno" id="phnum" placeholder="+959-123-456-789"  required><br>
+                    
+                    <div id="empr">
+                        <label for="email" id="emlb"><ion-icon name="mail-unread-outline"></ion-icon>E-Mail</label>
+                        <input type="email" name="email" id="email" placeholder="@gmail.com" minlength="10" maxlength="40" required><br>
+                    </div>
+
+                    <div id="addpr">
+                        <label for="address" id="addlb">Address</label>
+                        <input type="text" name="address" id="address" placeholder="Street-TownShip-Country" maxlength="40">
+                    </div>
+                
+                </div>
+
+                <fieldset id="genpr">
+                    <legend>Gender</legend>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="gender">Male</label><br><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="gender">Female</label><br><br>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="gender">Others</label><br><br>
+
+                </fieldset>
+            </div>
+
+        </div>
+
+        <div id=hlinfo>
+
+            <h2 id="regh3" data-aos="fade-right" data-aos-duration="1200">Health Information</h2>
+            <div id="heaparent">
+                <div id="heipr">
+                    <label for="height">Height</label>
+                    <input type="number" name="height" id="height" placeholder="ft-inch" required >
+                </div>
+
+                <div id="weipr">
+                    <label for="weight">Weight</label>
+                    <input type="number" name="weight" id="weight" placeholder="lbs" required >
+                </div>
+
+                <div id="bmipr">
+                    <label for="bmid">B M I</label>
+                    <input type="number" name="bmid" id="bmid" placeholder="Body-Mass-Index" required >
+                </div>
+                
+                <div id="mdcpr">
+                    <label for="medical">Please Provide <span style="color: rgb(17, 108, 17);">Medical History</span></label><br>
+                    <input type="file" name="medical" id="mdf" size="20">
+                </div>
+
+                <div id="algpr"> 
+                    <label for="allergy">Allergies or <span style="color: red;"> Food Intolerances</span></label>
+                    <textarea name="allergy" id="altxt" cols="30" rows="10">Current medications and supplements!</textarea>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="diinfo">
+            <h2 id="regh4" data-aos="fade-right" data-aos-duration="1200">Dietary Information and Preferences</h2>
+
+            <div id="dietpr">
+
+                <div id="ml">
+                    <label for="dietit" >Meal Intake</label>
+                    <input type="number" name="dietit" id="dietit" required placeholder="How many meal do you eat daily?"><br>
+                </div>
+
+                <div id="fr">
+                    <label for="foodRes" >Food Restrictions</label>
+                    <input type="text" name="foodRes" id="fdres" placeholder="(e.g., vegetarian, vegan, gluten-free)"><br>
+                </div>  
+                
+                <div id="fvf">
+                    <label for="favfood" >Favorite food </label>
+                    <input type="text" name="favfood" id="fvfd" placeholder="not more than 5 foods"><br>
+                </div>
+
+                <div id="ltf">
+                    <label for="leafood" id="ltf">Least Favourite food</label>
+                    <input type="text" name="leafood" id="ltfd" placeholder="not more than 5 foods"><br>
+                </div>
+
+                <div id="flit">
+                    <label for="fluintake" id="flit">Fluid Intake</label>
+                    <input type="text" name="fluintake" id="flitk" placeholder="Liquid intake like(e.g water,beverages)"><br>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="physinfo">
+
+            <h2 id="regh5" data-aos="fade-right" data-aos-duration="1200">LifeStyle Information </h2>
+
+            <div id="physpr">
+
+                <div id="exepr">
+                    <label for="exetime">Physical Activity Level</label>
+                    <input type="text" name="exetime" id="phsbx" placeholder="type and frequency of Exercises">
+                </div>
+
+                <div id="slppr">
+                    <label for="sleeppt">Sleep Cycle</label>
+                    <input type="text" name="sleeppt" id="slpbx" placeholder="(e.g,2-6 Cycles)(e.g,wake,light sleep,deep sleep,REM,and repeat)">
+                </div>
+
+                <div id="smacpr">
+                    <label for="alcosmo">Smoke,Alcohol Consumption</label><br>
+                    <input type="checkbox" id="smoke" name="alcosmo" value="smoke">
+                    <label for="smoke">Smoking</label>
+
+                    
+                    <select name="smoke" id="smoking">
+                        <option value="less than 1 pack" class="opt">Less than 1 pack</option>
+                        <option value="1pack" class="opt">1 pack</option>
+                        <option value="more than 1 pack" class="opt">More than one pack</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" name="alcohol" id="alcohol" value="alcohol">
+                    <label for="alcohol">Alcohol</label>
+
+                   
+                    <select name="alcohol1" id="alco">
+                        <option value="less than 1litre" class="opt">less than 1 litre</option>
+                        <option value="1litre" class="opt">1 litre</option>
+                        <option value="more than 1litre" class="opt">more than 1 litre</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="nutrigoal">
+            <h1 id="regh6" data-aos="fade-right" data-aos-duration="1200">Nutritions goal</h1>
+
+
+            <div id="ntrglpr">
+                <select name="goal" id="goal">
+                    <option value="Weight loss" id="wl">Weight Loss</option>
+                    <option value="Weight Gain" id="wg">Weight Gain</option>
+                    <option value="Building Muscles" id="bm">Building Muscles</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="smlg">
+            <input type="submit" id="register" value="Register">
+            <input type="submit" id="login" value="Login">
+            <a href="index.html" id="brag">Browse As Guest</a>
+        </div>
+
+
+    </form>
+    </div>
+
+
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
